@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+   
+    
+    
+
+}
+td {
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+body{
+    background-color: yellow;
+}
+.ogiua{
+    text-align: center;
+}

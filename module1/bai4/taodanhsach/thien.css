@@ -1,0 +1,52 @@
+h1{
+    /*color:rgb(255, 0, 0);*/
+    text-align: center;
+    background-color: rgba(255, 0,0, 0.5)
+    
+}
+table{
+    border: 1px solid silver ;
+    border-collapse: collapse;
+
+}
+td,th{
+    padding:15px;
+    border: 1px solid salmon;
+}
+#para1 {
+    text-align: center;
+    color: red;
+  }
+body{
+    
+    background-repeat: no-repeat; /* lặp lại hình ảnh theo chiều ngang thì dùng : repeat-x, ngược lại dùng repeat-y */
+    background-size:cover;
+    background-position:center;   /* position: xác định vị trí của hình nền*/
+    background-attachment: fixed /* xác định ảnh nền sẽ cuộn hay cố định
+                                    -- scrool đây là mặc định, cuộn cùng với nội dung của trang
+}                                   --fixed cố định tại chỗ và không cuộn cùng trang
+                                    --local sẽ cuộn với phần nội dung mà nó được áp dụng*/
+}
+.vien{
+
+}
+
+.viendut{
+    border-style:dotted;
+}
+.vienke{
+    border-style: solid;
+}
+.ladouble{
+    border-style: double;
+}
+.botron{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2px;
+}
+.box{
+    border:5px solid blue;
+    margin: 20px red;
+    padding: 3px;
+}
